@@ -1,0 +1,29 @@
+{
+    "tasks":[
+        {
+            "id": 1,
+            "text": "Terminar el módulo de Angular",
+            "day": "Febrero 3, a las 8:00 hs",
+            "reminder": true
+        },
+        {
+            "id": 2,
+            "text": "Hacer las compras para la cena",
+            "day": "Febrero 3, a las 15:00 hs",
+            "reminder": true
+        },
+        {
+            "id": 3,
+            "text": "Investigar sobre la Web",
+            "day": "Febrero 3, a las 18:00 hs",
+            "reminder": false
+        },
+        {
+            "id": 4,
+            "text": "Ver una serie",
+            "day": "Febrero 3, a las 22:00 hs",
+            "reminder": false
+        }
+    
+    ]
+}
