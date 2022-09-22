@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { TaskService } from '../../service/task.service';
 import { Task } from '../../Task';
 
@@ -7,6 +8,7 @@ import { Task } from '../../Task';
   templateUrl: './tasks.component.html',
   styleUrls: ['./tasks.component.css']
 })
+
 export class TasksComponent implements OnInit {
 
   tasks : Task [] = [];
@@ -19,7 +21,7 @@ export class TasksComponent implements OnInit {
   ngOnInit(): void {
     // like promise
      this.taskService.getTasks().subscribe(tasks => this.tasks = tasks)
-  }
+  };
 
   deleteTask(task:Task){
     this.taskService.deleteTask(task)

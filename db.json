@@ -17,6 +17,12 @@
       "text": "Estudiar BBD",
       "day": "Lunes 7 de Febrero",
       "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "tarea 1",
+      "day": "Lunes 7 de Febrero",
+      "reminder": false
     }
   ]
 }
